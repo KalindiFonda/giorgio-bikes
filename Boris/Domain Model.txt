@@ -1,0 +1,7 @@
+Objects			Messages
+
+Person		| 
+|
+Bike		| working_bike?
+|
+docking_Station	| release_bike
