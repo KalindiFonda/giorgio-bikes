@@ -1,0 +1,4 @@
+Type:		Uninitialised Constant
+Error: 		Line 1
+File Path:	Projects/boris_bikes/Boris
+Doc:		- remove camelcase and use lower case (not a class)
