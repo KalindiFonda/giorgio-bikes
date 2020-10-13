@@ -13,7 +13,13 @@ RSpec.describe DockingStation do
   end
   describe "#dock_bike" do
     it "Docking station accepts bike" do
-      expect(subject.dock_bike(Bike.new)).to eq true
+      giorgio_bike = Bike.new
+      expect(subject.dock_bike(giorgio_bike)).to eq giorgio_bike
+    end
+  end
+  describe "#has_bike?" do
+    it "Checks if docking station has a bike" do
+      expect(subject.has_bike?).to eq true
     end
   end
 end
