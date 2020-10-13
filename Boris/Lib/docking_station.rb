@@ -1,9 +1,17 @@
 class DockingStation
   def release_bike
-    bike = Bike.new
+    # bike = Bike.new
+    fail "No bikes available" unless @bike
+    @bike
+    # raise
+    #'Argument is not numeric' unless x.is_a? Numeric
+  end
+  # attr_accessor :bike
+  def dock_bike(bike)
+    @bike = bike
   end
 
-  def dock_bike(bike)
+  def has_bike?
     true
   end
 end
