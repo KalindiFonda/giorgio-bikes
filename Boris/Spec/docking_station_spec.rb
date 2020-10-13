@@ -6,6 +6,4 @@ RSpec.describe DockingStation do
       expect(subject.release_bike).to eq true
     end
   end
-
-
 end
