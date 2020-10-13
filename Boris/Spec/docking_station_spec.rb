@@ -11,4 +11,9 @@ RSpec.describe DockingStation do
       expect(subject.release_bike.working?).to eq true
     end
   end
+  describe "#dock_bike" do
+    it "Docking station accepts bike" do
+      expect(subject.dock_bike(Bike.new)).to eq true
+    end
+  end
 end
